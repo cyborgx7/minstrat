@@ -30,7 +30,8 @@ func _fixed_process(delta):
 func _input(event):
 	if event.type == InputEvent.MOUSE_BUTTON and active:
 		if(event.button_index == 2):
-			goal = Vector2(event.x,event.y)
+			var viewport = get_viewport()
+			goal = get_global_mouse_pos()
 		if(event.button_index == 1):
 			deactivate()
 
