@@ -28,4 +28,6 @@ transform/pos = Vector2( 840.755, 405.148 )
 
 [node name="tree" parent="." instance=ExtResource( 3 )]
 
+transform/pos = Vector2( 488.563, 255.385 )
+
 
