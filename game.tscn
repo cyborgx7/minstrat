@@ -1,0 +1,15 @@
+[gd_scene load_steps=2 format=1]
+
+[ext_resource path="res://mampfer.tscn" type="PackedScene" id=1]
+
+[node name="Node2D" type="Node2D"]
+
+[node name="mampfer" parent="." instance=ExtResource( 1 )]
+
+transform/pos = Vector2( 708.912, 239.305 )
+
+[node name="mampfer 2" parent="." instance=ExtResource( 1 )]
+
+transform/pos = Vector2( 287.696, 278.358 )
+
+
